@@ -1,9 +1,10 @@
 #pragma once
-class Prestamo{
+class Prestamo {
 protected:
 	double Monto;
 	double TazaI;
 	int Plazo;
+
 public:
 	Prestamo(double monto, double tazai, int plazo)
 	{
